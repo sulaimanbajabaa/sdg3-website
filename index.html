@@ -1,0 +1,389 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>SDG 3 — Student Mental Health</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@400;600;700&family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+
+  <header id="home" class="hero">
+    <div class="wrap">
+
+      <div class="hero-top">
+        <a class="brand" href="#home" aria-label="Action Campaign Home">
+          <img class="brand-logo" src="Img/Logo.png" alt="Action Campaign logo">
+        </a>
+
+      
+
+        <nav class="hero-nav" aria-label="Primary">
+          <a href="#home" class="nav-link">HOME</a>
+          <a href="#about" class="nav-link">ABOUT US</a>
+          <a href="#issues" class="nav-link">KEY ISSUES</a>
+          <a href="#selfcheck" class="nav-link">SELF-CHECK</a>
+          <a href="#help" class="nav-link">GET HELP</a>
+          <a href="#events" class="nav-link">EVENTS</a>
+          <a href="#stories" class="nav-link">STORIES</a>
+          <a href="#contact" class="nav-link">CONTACT</a>
+        </nav>
+
+          <button class="burger" id="burgerBtn" aria-label="Open menu" aria-controls="mobileMenu" aria-expanded="false">
+         <span></span>
+         <span></span>
+         <span></span>
+        </button>
+      </div>
+      
+
+
+      <div class="hero-grid">
+       
+        <div class="hero-bg" aria-hidden="true">
+          <div class="hero-float-layer" aria-hidden="true"></div>
+          <img src="Img/hero1.png" alt="">
+        </div>
+
+        <div class="hero-text reveal">
+          <h1>NEED HELP NOW?</h1>
+          <p>
+            YOU’RE NOT ALONE. FREE,<br>
+            CONFIDENTIAL SUPPORT IS<br>
+            AVAILABLE FOR STUDENTS DAY<br>
+            OR NIGHT.
+          </p>
+          <a class="btn btn-green" href="#help">GET HELP NOW</a>
+        </div>
+
+        <div class="hero-spacer" aria-hidden="true"></div>
+      </div>
+
+    </div>
+  </header>
+
+
+
+  <section id="about" class="about">
+    <div class="wrap">
+
+      <div class="about-grid">
+        <div class="about-left reveal">
+          <h2>ABOUT US</h2>
+
+          <div class="about-copy">
+            <p class="about-sub">ABOUT THIS SITE (SDG 3)</p>
+            <ul>
+              <li>SDG 3 = GOOD HEALTH &amp; WELL-BEING.</li>
+              <li>THIS PAGE FOCUSES ON STUDENT MENTAL HEALTH.</li>
+              <li>LEARN FAST, DO A SHORT SELF-CHECK,<br>AND GET HELP IN ONE TAP.</li>
+              <li>FREE RESOURCES AND LOCAL HELPLINE<br>FOR IMMEDIATE SUPPORT.</li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="about-right reveal" aria-label="SDG visuals">
+          <div class="stack stack-a">
+            <img src="Img/Smoking target_1 1.png" alt="No smoking icon" />
+          </div>
+          <div class="stack stack-b">
+            <img src="Img/SDG 3-3 1.png" alt="SDG 3 icon" />
+          </div>
+          <div class="stack stack-c">
+            <img src="Img/image 22.png" alt="SDG 3 graphic" />
+          </div>
+        </div>
+      </div>
+
+      <h2 id="issues" class="section-title reveal">KEY ISSUES</h2>
+
+      <div class="issue-tabs reveal" role="tablist" aria-label="Key issues">
+        <button class="tab active" data-issue="stress" role="tab" aria-selected="true">STRESS &amp; ANXIETY</button>
+        <button class="tab" data-issue="sleep" role="tab" aria-selected="false">SLEEP PROBLEMS</button>
+        <button class="tab" data-issue="lonely" role="tab" aria-selected="false">LONELINESS/HOMESICKNESS</button>
+      </div>
+
+      <div class="issue-card reveal" id="issueCard" data-bg="green">
+        <div class="issue-bg" aria-hidden="true"></div>
+
+        <div class="issue-img">
+          <img id="issueImg" src="Img/Anxiety_1.png" alt="Issue illustration">
+        </div>
+
+        <div class="issue-info">
+          <h3 id="issueTitle">STRESS &amp; ANXIETY</h3>
+
+          <div class="issue-block">
+            <div class="issue-head">SIGNS</div>
+            <ul id="issueSigns">
+              <li>CONSTANT WORRY / RACING THOUGHTS</li>
+              <li>TIGHT CHEST / FAST HEARTBEAT / HEADACHES</li>
+              <li>IRRITABLE, HARD TO FOCUS</li>
+              <li>SLEEP CHANGES</li>
+            </ul>
+          </div>
+
+          <div class="issue-block">
+            <div class="issue-head">DO NOW (≤ 5 MIN)</div>
+            <ul id="issueNow">
+              <li>BREATHE 4–4–6 × 6</li>
+              <li>GROUNDING 5–4–3–2–1</li>
+              <li>TEXT A FRIEND / TAKE A SHORT WALK</li>
+            </ul>
+          </div>
+
+          <div class="issue-block">
+            <div class="issue-head">GET HELP</div>
+            <ul id="issueHelp">
+              <li>GET HELP NOW: CALL 03-7627 2929 (BEFRIENDERS, 24/7)</li>
+              <li>CAMPUS COUNSELLING (HOURS &amp; BOOKING)</li>
+            </ul>
+          </div>
+
+          <div class="issue-urgent" id="issueUrgent">
+            <span class="urgent-label">URGENT</span>
+            <span>IF YOU FEEL UNSAFE OR HAVE THOUGHTS OF HARM → CALL 999 / GO TO EMERGENCY.</span>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+
+  <section id="selfcheck" class="self">
+    <div class="wrap">
+      <h2 class="section-title reveal">SELF-CHECK</h2>
+
+      <div class="self-bar reveal">
+        <div class="self-question">How well could you stay calm when plans changed ?</div>
+
+        <div class="scale" role="group" aria-label="Self check scale">
+          <span class="scale-label left">Very bad</span>
+          <span class="scale-label mid1">bad</span>
+          <span class="scale-label mid2">Okay</span>
+          <span class="scale-label mid3">Good</span>
+          <span class="scale-label right">Very good</span>
+
+          <div class="scale-line" aria-hidden="true"></div>
+
+          <div class="scale-dots" role="radiogroup" aria-label="Self check choices">
+            <label class="dot">
+              <input type="radio" name="q1" value="1">
+              <span aria-hidden="true"></span>
+            </label>
+            <label class="dot">
+              <input type="radio" name="q1" value="2">
+              <span aria-hidden="true"></span>
+            </label>
+            <label class="dot">
+              <input type="radio" name="q1" value="3">
+              <span aria-hidden="true"></span>
+            </label>
+            <label class="dot">
+              <input type="radio" name="q1" value="4">
+              <span aria-hidden="true"></span>
+            </label>
+            <label class="dot">
+              <input type="radio" name="q1" value="5">
+              <span aria-hidden="true"></span>
+            </label>
+          </div>
+
+          <div class="self-result" id="selfResult">Choose an option to see a short tip.</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <section id="help" class="help">
+    <div class="wrap">
+      <h2 class="help-title reveal">GET HELP (HELPLINE)</h2>
+
+      <div class="help-center reveal">
+        <div class="help-sub">PRIMARY CTA</div>
+
+        <a class="pill pill-green" href="tel:+60376272929">
+          Call Befrienders KL (24/7): 03-7627 2929 Free &amp; confidential.
+        </a>
+
+        <div class="help-sub2">Safety Note</div>
+
+        <div class="pill pill-blue">
+          Immediate danger? Call 999. Severe symptoms → nearest emergency department.
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <section id="events" class="events">
+    <div class="wrap">
+      <h2 class="section-title reveal">EVENTS</h2>
+      <div class="event-grid reveal">
+
+  <a class="event-link" href="https://sdgs.un.org/2026ECOSOCPartnershipForum" target="_blank" rel="noopener">
+    <article class="event">
+      <div class="event-date">
+        <div class="d">27</div>
+        <div class="m">JAN 2026</div>
+      </div>
+      <h3>2026 ECOSOC Partnership forum</h3>
+      <p class="event-time">Tue 27 - Tue 27 Jan 2026</p>
+      <div class="event-goals" aria-label="Related Goals">
+        <span class="g Goal-1">1</span><span class="g Goal-2">2</span><span class="g Goal-3">3</span><span class="g Goal-4">4</span>
+        <span class="g Goal-5">5</span><span class="g Goal-6">6</span><span class="g Goal-7">7</span><span class="g Goal-8">8</span>
+        <span class="g Goal-9">9</span><span class="g Goal-10">10</span><span class="g Goal-11">11</span><span class="g Goal-12">12</span>
+        <span class="g Goal-13">13</span><span class="g Goal-14">14</span><span class="g Goal-15">15</span><span class="g Goal-16">16</span>
+        <span class="g Goal-17">17</span>
+      </div>
+    </article>
+  </a>
+
+  <a class="event-link" href="https://sdgs.un.org/sustainabletransportlaunch" target="_blank" rel="noopener">
+    <article class="event">
+      <div class="event-date">
+        <div class="d">10</div>
+        <div class="m">DEC 2025</div>
+      </div>
+      <h3>Launch of the United Nations Decade of Sustainable Transport</h3>
+      <p class="event-time">Wed 10 - Wed 10 Dec 2025</p>
+      <div class="event-goals" aria-label="Related Goals">
+        <span class="g Goal-3">3</span><span class="g Goal-9">9</span><span class="g Goal-11">11</span>
+      </div>
+    </article>
+  </a>
+
+  <a class="event-link" href="https://sdgs.un.org/events/un-decade-sustainable-transport-2026-2035-road-towards-launch-and-implementation-plan" target="_blank" rel="noopener">
+    <article class="event">
+      <div class="event-date">
+        <div class="d">16</div>
+        <div class="m">OCT 2026</div>
+      </div>
+      <h3>UN Decade of Sustainable Transport (2026 - 2035) — The roadmap</h3>
+      <p class="event-time">Tue 27 - Tue 27 Jan 2026</p>
+      <div class="event-goals" aria-label="Related Goals">
+        <span class="g Goal-1">1</span><span class="g Goal-2">2</span><span class="g Goal-3">3</span><span class="g Goal-4">4</span>
+        <span class="g Goal-5">5</span><span class="g Goal-6">6</span><span class="g Goal-7">7</span><span class="g Goal-8">8</span>
+        <span class="g Goal-9">9</span><span class="g Goal-10">10</span><span class="g Goal-11">11</span><span class="g Goal-12">12</span>
+        <span class="g Goal-13">13</span><span class="g Goal-14">14</span><span class="g Goal-15">15</span><span class="g Goal-16">16</span>
+        <span class="g Goal-17">17</span>
+      </div>
+    </article>
+  </a>
+
+  <a class="event-link" href="https://sdgs.un.org/2025-SDG-BusinessForum" target="_blank" rel="noopener">
+    <article class="event">
+      <div class="event-date">
+        <div class="d">22</div>
+        <div class="m">JUL 2026</div>
+      </div>
+      <h3>2025 SDG Global Business Forum</h3>
+      <p class="event-time">Tue 22 - Tue 22 Jul 2026</p>
+      <div class="event-goals" aria-label="Related Goals">
+        <span class="g Goal-3">3</span><span class="g Goal-5">5</span><span class="g Goal-8">8</span><span class="g Goal-14">14</span><span class="g Goal-17">17</span>
+      </div>
+    </article>
+  </a>
+
+</div>
+
+    </div>
+  </section>
+
+  <section id="stories" class="stories">
+    <div class="wrap">
+      <h2 class="section-title reveal">SUCCESS STORIES </h2>
+
+      <div class="story-card reveal">
+        <button class="arrow left" id="prevStory" aria-label="Previous story">‹</button>
+
+        <div class="story-text" id="storyText">
+          Aina, 20: “I used the breathing tip<br>before a test and my hands stopped<br>shaking.”
+        </div>
+
+        <button class="arrow right" id="nextStory" aria-label="Next story">›</button>
+      </div>
+    </div>
+  </section>
+
+
+  <footer id="contact" class="footer">
+    <div class="wrap footer-grid reveal">
+      <div class="footer-left">
+        <h3>Contact</h3>
+        <p>Email: example@gmail.com</p>
+        <p>Phone Number: 01112237738</p>
+      </div>
+
+      <div class="footer-right">
+        <h3>Social Media</h3>
+
+        <div class="social-wrap" aria-label="Social media">
+          <div class="social-bg" aria-hidden="true"></div>
+
+          <a class="icon-btn" href="#" target="_blank" rel="noopener" aria-label="TikTok">
+            <img src="Img/Tiktok.png" alt="">
+          </a>
+
+          <a class="icon-btn" href="#" target="_blank" rel="noopener" aria-label="Facebook">
+            <img src="Img/Facebook.png" alt="">
+          </a>
+
+          <a class="icon-btn" href="#" target="_blank" rel="noopener" aria-label="X">
+            <img src="Img/X.png" alt="">
+          </a>
+
+          <a class="icon-btn icon-placeholder" href="#" target="_blank" rel="noopener" aria-label="Instagram">
+            <img src="Img/Insa.png" alt="">
+          </a>
+        </div>
+</div>
+      </div>
+    </div>
+
+    <div class="wrap footer-note">
+      © 2025 SDG 3 Student Project  •  Not medical advice  •  Privacy  •  Accessibility
+    </div>
+  </footer>
+   
+  <div class="menu-overlay" id="menuOverlay" hidden></div>
+
+   <aside class="mobile-menu" id="mobileMenu" aria-hidden="true">
+    <div class="mobile-menu-bg" aria-hidden="true"></div>
+
+    <div class="mobile-menu-top">
+      <button class="menu-close" id="menuCloseBtn" aria-label="Close menu">
+        &#8592;
+      </button>
+      <div class="menu-title">SDG 3</div>
+    </div>
+
+    <nav class="mobile-menu-links" aria-label="Mobile">
+      <a href="#home">HOME</a>
+      <a href="#about">ABOUT US</a>
+      <a href="#issues">KEY ISSUES</a>
+      <a href="#selfcheck">SELF-CHECK</a>
+      <a href="#help">GET HELP</a>
+      <a href="#events">EVENTS</a>
+      <a href="#stories">STORIES</a>
+      <a href="#contact">CONTACT</a>
+    </nav>
+
+    <div class="mobile-menu-footer">
+      <img src="Img/Logo.png" alt="Action Campaign logo">
+      <div class="menu-footer-text">WELL-BEING FOR ALL</div>
+    </div>
+  </aside>
+  
+  <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
